@@ -17,5 +17,6 @@ int main() {
     if (!(cin >> n)) return 0;
     if (isPrime(n)) cout << n << " is prime\n";
     else cout << n << " is not prime\n";
+    cout<< "its final ans\n";
     return 0;
 }
